@@ -143,7 +143,7 @@ The line chart visualizes monthly crime trends for selected streets, providing i
    npm install
    npm start
    ```
-4. **Access the App**: Open your browser and go to [http://localhost:3000](http://localhost:3000).
+4. **Access the App**: Open your browser and go to [http://localhost:3000](http://localhost:3000) to access the frontend app and backend at [http://127.0.0.1:5000/](http://127.0.0.1:5000/).
 
 
 ---
@@ -193,7 +193,7 @@ The line chart captures monthly crime fluctuations, revealing seasonal trends an
 
 ---
 
-##📚 References
+## References 📚
 1. City of Chicago. Crime Data Portal. Available at: [Crime Data](https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-Present/ijzp-q8t2/about_data).
 2. NOAA VIIRS Nighttime Lights. Available at: [VIIRS Nighttime Satellite Data](https://www.ngdc.noaa.gov/eog/viirs).
 3. City of Chicago. 311 Service Requests for Streetlight Outages. Available at: [311 Service Requests](https://data.cityofchicago.org).
