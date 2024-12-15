@@ -13,9 +13,9 @@ The system enables spatial and temporal analysis of crime patterns, empowering p
 
 The analysis was based on three datasets:
 
-1. **Crime Data**: Sourced from the [Crimes - 2001 to Present - Chicago Data Portal]([https://data.cityofchicago.org/](https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-Present/ijzp-q8t2/about_data)) this dataset includes attributes such as crime type, date, location, and street names.
+1. **Crime Data**: Sourced from the [Crimes - 2001 to Present - Chicago Data Portal](https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-Present/ijzp-q8t2/about_data) this dataset includes attributes such as crime type, date, location, and street names.
 2. **VIIRS Nighttime Light Pollution Data**: Monthly satellite radiance data from [NOAA](https://www.ngdc.noaa.gov/eog/viirs/) to measure artificial lighting intensity across Chicago.
-3. **Streetlight Outage Data**: 311 service request logs for streetlight outages, also from the [311 Service Requests - Street Lights All Out]([https://data.cityofchicago.org/](https://www.chicago.gov/city/en/dataset/street_lights_out.html)).
+3. **Streetlight Outage Data**: 311 service request logs for streetlight outages, from the [311 Service Requests - Street Lights All Out](https://www.chicago.gov/city/en/dataset/street_lights_out.html).
 
 ---
 
