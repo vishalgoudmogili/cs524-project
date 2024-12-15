@@ -158,7 +158,7 @@ The choropleth map provides a comprehensive view of street-level vulnerabilities
 
 ### Scatter Plot (Fig. 2)
 
-<img width="581" alt="choropleth" src="https://github.com/user-attachments/assets/3be929b3-5a93-46f5-941d-99f5de0478b8" />
+<img width="902" alt="scatter-plot" src="https://github.com/user-attachments/assets/bc441ee0-950d-4b0c-8526-b526cd18b0c2" />
 
 The scatter plot enables comparative analysis of streets, helping identify correlations between high LPI values and increased vulnerability.
 
