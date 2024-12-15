@@ -1,0 +1,59 @@
+
+body {
+  font-family: 'Open Sans', sans-serif; /* Body text */
+  font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif; /* Headings */
+  font-weight: 600;
+}
+
+.visualizations-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  
+  .visualization {
+    width: 30%;
+    margin: 10px;
+  }
+  
+  .scatter-plot{
+    display: inline-grid;
+  }
+
+  h1{
+    margin-left: 24%;
+  }
+
+  .visualizations {
+   display: flex;
+  }
+
+  body{
+    background-color: antiquewhite;
+    background-image: url("./../public/bg8.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .margin-left-5{
+    margin-left: 5%;
+  }
+
+  .center-text{
+    display: flex;
+    justify-content: center;
+  }
+
+  #metric-select{
+    width: fit-content;
+  }
+
+  .selection-overlay{
+    position:absolute;
+    z-index:1;
+  }
+
