@@ -1,0 +1,23 @@
+
+var dataset = ee.ImageCollection('NOAA/VIIRS/DNB/MONTHLY_V1/VCMCFG')
+                .filterDate('2023-01-01', '2023-12-31') // Change date range for other years
+                .select('avg_rad'); // Average radiance
+
+// Chicago bound region
+var roi = ee.Geometry.Rectangle([-88.3, 41.6, -87.5, 42.1]); // Adjust coordinates as needed
+
+
+var annualComposite = dataset.mean().clip(roi);
+
+
+Map.centerObject(roi, 10);
+Map.addLayer(annualComposite, {min: 0, max: 60, palette: ['black', 'blue', 'purple', 'white']}, 'Annual Nighttime Lights');
+
+Export.image.toDrive({
+  image: annualComposite,
+  description: 'VIIRS_Nighttime_Lights_2023',
+  scale: 500, // Resolution in meters
+  region: roi,
+  crs: 'EPSG:4326',
+  maxPixels: 1e13
+});
