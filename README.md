@@ -63,10 +63,10 @@ Data preprocessing involved cleaning, transformation, and integration of dataset
 4. **Street-Level Aggregation**:
    - Aggregated LPI and streetlight outage metrics by street.
    - Computed the **Light Vulnerability Index (LVI)** using the formula:
-     \[
-     \text{LVI} = \alpha \times \text{Mean LPI} + \beta \times \text{Mean Streetlight Outage}
-     \]
-     where \(\alpha\) and \(\beta\) are user-defined weights.
+
+     **LVI = α × Mean LPI + β × Mean Streetlight Outage**
+
+     where **α** and **β** are user-defined weights.
 
 ---
 
